@@ -533,10 +533,10 @@ h3 {
   width: 100%;
 }
 .inSection {
-  background-color: white !important;
+  background-color: #C5E6FE !important;
 }
 .inSection h3 {
-  color: black !important;
+  color: 1f3a93 !important;
 }
 
 /* ----logo---- */
