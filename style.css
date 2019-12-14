@@ -461,7 +461,7 @@ sup {
 /* -----------------END RESET-------------------- */
 
 body {
-  background-color: black;
+  background-color: #E0FFFF;
 }
 
 h3 {
@@ -474,48 +474,16 @@ h3 {
 }
 
 .pages h1 {
-  color: black;
+  color: #E0FFFF;
   text-align: center;
   width: 100%;
-  background-color: white;
+  background-color: #C5E6FE;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
 #label-about {
-  background:url('./gallery/heading_parallax_1.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#label-releases {
-  background:url('./gallery/heading_parallax_3.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#label-video {
-  background:url('./gallery/heading_parallax_2.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#label-gallery {
-  background:url('./gallery/heading_parallax_5.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#label-list {
-  background:url('./gallery/heading_parallax_4.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #C5E6FE;
 }
 
 #firstline {
@@ -530,33 +498,33 @@ h3 {
   text-align: center;
   padding-left: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: #C5E6FE;
   z-index: 1;
 }
 #top-nav a {
   display: inline-block;
-  color: white;
+  color: #1f3a93;
   text-align: center;
   padding-left: 14px;
   padding-right: 14px;
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: #C5E6FE;
+  color: #1f3a93;
   cursor: pointer;
   border: none;
   outline: none;
   transition: 0.4s;
 }
 #top-nav h3 {
-  color: white;
+  color: #1f3a93;
   transition: 0.4s
 }
 #top-nav a:hover {
-  background-color: white;
+  background-color: #C5E6FE;
   transition: 0.4s;
 }
 #top-nav a:hover h3 {
-  color: black;
+  color: #1f3a93;
   transition: 0.4s;
 }
 .sticky {
@@ -581,18 +549,18 @@ h3 {
  width: 100%;
  max-width: 1000px;
  padding-top: 6%;
- background-color: black;
+ background-color: #E0FFFF;
 }
 
 /* ----social media---- */
 #social-wrapper {
-  background-color: black;
+  background-color: #E0FFFF;
 }
 #social {
   display: table;
   margin: auto;
   padding: 2% auto;
-  background-color: black;
+  background-color: #E0FFFF;
 }
 #social ul {
   display: grid;
@@ -614,64 +582,14 @@ h3 {
   overflow: hidden;
 }
 #fbsm {
-  background:url('./smicons/facebook.png');
+  background:url('./media/facebook.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
-#fbsm:hover {
-  background:url('./smicons/facebook-hover.gif');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-#twsm {
-  background:url('./smicons/twitter.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%; 
-}
-#twsm:hover {
-  background:url('./smicons/twitter-hover.gif');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-#bcsm {
-  background:url('./smicons/bandcamp.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;  
-}
-#bcsm:hover {
-  background:url('./smicons/bandcamp-hover.gif');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;    
 }
 #insm {
-  background:url('./smicons/instagram.png');
+  background:url('./media/instagram.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;   
-}
-#insm:hover {
-  background:url('./smicons/instagram-hover.gif');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;    
-}
-#ytsm {
-  background:url('./smicons/youtube.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-#ytsm:hover {
-  background:url('./smicons/youtube-hover.gif');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;    
-}
-#etsm {
-  background:url('./smicons/etsy.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-#etsm:hover {
-  background:url('./smicons/etsy-hover.gif');
-  background-repeat: no-repeat;
-  background-size: 100% 100%; 
 }
 
 #bgimage { 
@@ -699,7 +617,7 @@ h3 {
   width: 100%;
   text-align: center;
   font-style: italic;
-  background-color: black;
+  background-color: #E0FFFF;
 }
 
 /*--- content ---*/
@@ -712,13 +630,6 @@ h3 {
   margin-right: 5%;
   text-align: justify;
 }
-#About img {
-  position: relative;
-  margin: auto;
-  display: block;
-  padding-top: 2%;
-  max-width: 100%;
-}
 .anchor {
   display: block;
   position: relative;
@@ -729,114 +640,9 @@ h3 {
   font-style: italic;
 }
 
-#Releases {
-  background:url('./gallery/GeddonSky.jpg');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 100% auto;
-  min-height: 100vh;
-}
-
-#Video {
-  background:url('./gallery/GeddonTelly.jpg');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 100% auto;
-  min-height: 100vh;
-}
-
-#Gallery img {
-  display: block;
-  position: relative;
-  margin: auto;
-  max-width: 100%;  
-}
-#Gallery figcaption {
-  color: white;
-  font-size: 15px;
-  text-align: center;
-}
-
-#signup {
- display: block;
- width: 100%;
- border: none;
-}
-
-/* bandcamp players */
-.release-panel {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 100%;
-  display: block;
-}
-.release-panel iframe {
-  position: absolute;
-  border: none;
-  margin: none;
-  padding: none;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  width: 100%;
-  height: 100%;
-  background: black;
-}
-.release-grid {
-  width: 95%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-}
-
-/* youtube players */
-.video-panel {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0;
-}
-.video-panel iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.video-grid {
-  position: relative;
-  width: 95%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-}
-.video-grid h2 {
-  text-align: center;
-}
-
 @media (max-width: 550px) {
-  .release-grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-  .video-grid {
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-  }
-  .service-grid {
-    grid-template-columns: repeat(1, minmax(240px, 1fr));
-  }
   .page-label {
     background-attachment: scroll !important;
     background-size: 100% !important;
-  }
-}
-@media (max-width: 480px) {
-  #social ul {
-    grid-template-columns: repeat(3, 1fr);
   }
 }
