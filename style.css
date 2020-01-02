@@ -562,14 +562,11 @@ h3 {
 
 #promo {
   position: relative;
-  height: 100%;
-  min-height: 315px;
-  overflow: hidden;
   display: block;
 }
 #promo iframe {
   display: block;
+  width:100%;
   max-width: 560px;
-  min-width: 100%;
   margin: 0 auto;
 }
